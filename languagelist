@@ -1,0 +1,13 @@
+
+from pkg1 import launchfirefox
+
+
+LangList = ["CHT","JPN","KOR"]
+LangNum = len(LangList)
+
+x = 0
+
+for x in range(0, LangNum):
+    launchfirefox.launchff(LangList[x])
+    x += 1
+
